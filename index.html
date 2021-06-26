@@ -13,12 +13,34 @@
   </head>
   <body>
     <main class="container">
+      <!-- NavBar -->
+      <div class="open-navbar-icon navbar-icon center">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="navbar-wrapper">
+        <nav class="navbar">
+          <div class="close-navbar-icon navbar-icon center">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+          </div>
+          <div class="nav-list">
+            <a href="#" class="nav-link center">Home</a>
+            <a href="#" class="nav-link center">Tours</a>
+            <a href="#" class="nav-link center">About Us</a>
+            <a href="#" class="nav-link center">Offer</a>
+            <a href="#" class="nav-link center">Contact</a>
+          </div>
+        </nav>
+      </div>
+      <!-- End of the NavBar -->
       <!-- header -->
       <header class="header center">
         <div class="header-text">
           <h1 class="heading">Around The World</h1>
           <p class="header-paragraph">
-            "Travelling- it leaves you speechless,then turns you iton a
+            "Travelling- it leaves you speechless,then turns you ito a
             storyteller"
           </p>
         </div>
@@ -108,6 +130,11 @@
 
       <!--Stories -->
       <section class="stories">
+        <div class="video-container">
+          <video class="bg-video" autoplay muted loop>
+            <source src="images/video.mp4" type="video/mp4" />
+          </video>
+        </div>
         <div class="stories-wrapper">
           <div class="story-bg">
             <div class="story">
@@ -152,6 +179,63 @@
         </div>
       </section>
       <!--End of the Stories-->
+
+      <!-- Contact -->
+      <section class="contact">
+        <h1 class="contact-heading">Contact Us</h1>
+        <form class="contact-form center">
+          <div class="input-group">
+            <label>Full Name*</label>
+            <input
+              type="text"
+              class="contact-input"
+              placeholder="Enter Your Name"
+            />
+          </div>
+          <div class="input-groups">
+            <div class="input-group">
+              <label>Email*</label>
+              <input
+                type="email"
+                class="contact-input"
+                placeholder="Enter Your Email"
+              />
+            </div>
+            <div class="input-group">
+              <label>Phone Number*</label>
+              <input
+                type="text"
+                class="contact-input"
+                placeholder="Enter Your Number"
+              />
+            </div>
+          </div>
+          <div class="input-group">
+            <label>Message</label>
+            <textarea
+              class="form-textarea"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+          <input type="submit" value="submit" class="form-btn" />
+        </form>
+      </section>
+      <!-- End of the Conctact -->
+
+      <!-- The footer -->
+      <footer class="footer">
+        <div class="footer-list">
+          <a href="" class="footer-link">HOME</a>
+          <a href="" class="footer-link">Tours</a>
+          <a href="" class="footer-link">About us</a>
+          <a href="" class="footer-link">Offer</a>
+          <a href="" class="footer-link">Contact</a>
+        </div>
+        <p class="footer-paragraph">
+          Copyright &copy; Code and Create All Rights Resrved Abdallah Adam
+        </p>
+      </footer>
+      <!-- The end of the footer -->
     </main>
     <script src="script.js"></script>
   </body>
